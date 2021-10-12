@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9089be57-bbfe-467a-bbf7-00f41f118ad5/deploy-status)](https://app.netlify.com/sites/neilsaim/deploys)
+
 ## Aim game
 
 - [General info](#general-info)
@@ -26,6 +28,6 @@ $ npm start
 
 ## Demo
 
-The live demo is deployed on Netlify: https://neilsmovieapp.netlify.com/
+The live demo is deployed on Netlify: https://neilsaim.netlify.com/
 
 ![Homepage screenshot](screenshot.png)
