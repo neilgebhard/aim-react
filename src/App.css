@@ -23,6 +23,7 @@ button {
   background-color: white;
   border: 10px solid black;
   padding: 1.5rem 1rem;
+  cursor: pointer;
 }
 
 .startScreen {
@@ -38,8 +39,13 @@ button {
 }
 
 .score,
-.timer {
+.timer,
+.intro {
   font-size: 2rem;
   font-weight: bold;
   padding: 1rem;
+}
+
+.intro {
+  max-width: 40rem;
 }

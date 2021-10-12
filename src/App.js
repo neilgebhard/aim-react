@@ -16,9 +16,11 @@ function App() {
     setIsPlaying(false);
   };
 
-  if (!isPlaying) return <StartScreen startGame={startGame} score={score} />;
-  if (isPlaying)
+  if (isPlaying) {
     return <GameScreen score={score} setScore={setScore} endGame={endGame} />;
+  } else {
+    return <StartScreen startGame={startGame} score={score} />;
+  }
 }
 
 export default App;
